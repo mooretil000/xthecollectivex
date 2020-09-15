@@ -232,13 +232,13 @@ button::-moz-focus-inner {
   font-style: normal;
   font-size: 28px;
   outline:none;
-  font-family: 'Open Sans', sans-serif;		
+  font-family: 'Open Sans', sans-serif;
  }
   .mfp-close:hover, .mfp-close:focus {
     opacity: 1; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333333; 
+  color: #000; 
  background: #FFF;
   }
 
@@ -248,14 +248,14 @@ button::-moz-focus-inner {
   right: -6px;
   text-align: right;
   padding-right: 6px;
-  width: 100%; 
+  width: 100%;
 }
 .login h3,.signup h3{
 	margin:1em 0;
 	color: #000000;
 	font-weight: 700;
 }
-.login p{	
+.login p{
 	color:##000000;
 	font-size:14px;
 	text-align:center;
@@ -342,7 +342,7 @@ button::-moz-focus-inner {
 	}
 }
 @media all and (max-width:640px){
-	
+
 	.mfp-content iframe {
 	  width: 100%;
 	  min-height:350px;
@@ -358,4 +358,4 @@ button::-moz-focus-inner {
 	#small-dialog{
 		padding:15px;
 	}
-} 
+}
